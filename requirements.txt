@@ -1,0 +1,35 @@
+pip install pipreqs
+pipreqs /Desktop/Coding  
+import streamlit as st 
+import nba_api
+from nba_api.stats.static import teams
+from nba_api.stats.static import players
+from nba_api.stats.endpoints import commonplayerinfo
+from nba_api.stats.endpoints import shotchartdetail
+from nba_api.stats.endpoints import playercareerstats
+from nba_api.stats.endpoints import leaguestandings
+from nba_api.stats.endpoints import playercareerstats
+from nba_api.stats.endpoints import drafthistory
+from nba_api.stats.endpoints import alltimeleadersgrids
+from nba_api.stats.endpoints import boxscoresummaryv2
+from nba_api.stats.endpoints import teamgamelog
+from nba_api.stats.endpoints import scoreboardv2
+from nba_api.stats.endpoints import scoreboardv2
+from nba_api.stats.endpoints import playerawards
+from nba_api.stats.endpoints import boxscoretraditionalv2
+from nba_api.stats.endpoints import leaguegamefinder
+from nba_api.stats.endpoints import boxscorematchups
+from nba_api.stats.endpoints import winprobabilitypbp
+from datetime import date, timedelta
+from csv import reader
+import csv 
+import json
+import datetime
+import numpy as np 
+import pandas as pd 
+import matplotlib.pyplot as plt 
+import seaborn as sns 
+from matplotlib import cm 
+from matplotlib.patches import Circle, Rectangle, Arc, ConnectionPatch
+from matplotlib.patches import Polygon
+from datetime import datetime
