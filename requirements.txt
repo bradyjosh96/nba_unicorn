@@ -1,4 +1,4 @@
-nba_api
 streamlit
+nba_api
 matplotlib.pyplot
 seaborn
